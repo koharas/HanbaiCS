@@ -44,7 +44,6 @@
             this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "商品名";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBoxSname
             // 
@@ -52,7 +51,6 @@
             this.textBoxSname.Name = "textBoxSname";
             this.textBoxSname.Size = new System.Drawing.Size(100, 22);
             this.textBoxSname.TabIndex = 1;
-            this.textBoxSname.TextChanged += new System.EventHandler(this.textBoxSname_TextChanged);
             // 
             // label2
             // 
@@ -62,7 +60,6 @@
             this.label2.Size = new System.Drawing.Size(37, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "単価";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBoxTanka
             // 
@@ -70,7 +67,6 @@
             this.textBoxTanka.Name = "textBoxTanka";
             this.textBoxTanka.Size = new System.Drawing.Size(100, 22);
             this.textBoxTanka.TabIndex = 3;
-            this.textBoxTanka.TextChanged += new System.EventHandler(this.textBoxTanka_TextChanged);
             // 
             // button1
             // 
@@ -92,7 +88,6 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "キャンセル";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormEdit
             // 
